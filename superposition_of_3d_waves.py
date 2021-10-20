@@ -139,7 +139,7 @@ label_n.pack(side='left')
 var_n = tkinter.IntVar(root)  # variable for spinbox-value
 var_n.set(num)  # Initial value
 s_n = tkinter.Spinbox(
-    root, textvariable=var_n, from_=0, to=20, increment=1,
+    root, textvariable=var_n, from_=1, to=20, increment=1,
     command=lambda: change_num(var_n.get()), width=5
     )
 s_n.pack(side='left')
