@@ -93,7 +93,7 @@ zz_superposed = zz
 
 # Generate tkinter
 root = tkinter.Tk()
-root.title("Spiral")
+root.title("Superposed wave")
 
 # Generate figure and axes
 fig = Figure(figsize=(10, 6))
